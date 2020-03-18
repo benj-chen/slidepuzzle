@@ -1,5 +1,6 @@
 # slidepuzzle
-This slidepuzzle is a game.\ 
+This slidepuzzle is a game.
+Everything looks much much better when every letter is the same length -_-
 The objective is to arrange the tiles from 1 to 15 in order.\
 Here's a screenshot of gameplay:\
 |----|----|----|----|\
