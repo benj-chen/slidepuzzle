@@ -1,6 +1,5 @@
 #This is a slide puzzle aka the 15 puzzle. The idea is that you move the empty
 #space around to arrange the randomized board to a solved board (see main, line 10.) 
-#Bugs: None!
 
 import random
 main=('''|----|----|----|----|
@@ -19,8 +18,6 @@ numbas=["01","02","03","04","05","06","07","08","09","10","11","12","13","14","1
 
 #Shuffle the board
 for q in range(10000):
-
-    
     loca = numbas.index("16")
     if loca==0: #top left, so where "01" is in main
         randmv=random.choice([1,4])
@@ -49,7 +46,7 @@ for y in range(16):
     main2=main[num[y]+2:]
     main=main1+numbas[y]+main2
 main=main.replace("16","  ")
-print("You're trying to get from that\n\n", main, "to this: \n\n"+ solved)
+print("You're trying to get from that\n\n"+ main+ "to this: \n\n"+ solved)
 
 #Actual gameplay
 #Will be using WASD, not arrow keys, difficult to program, maybe will go back later and mod.
