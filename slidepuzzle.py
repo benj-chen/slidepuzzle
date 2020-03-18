@@ -2,9 +2,7 @@
 #space around to arrange the randomized board to a solved board (see main, line 10.) 
 #Bugs: None!
 
-
-from random import randint
-from random import choice
+import random
 main=('''|----|----|----|----|
 | 01 | 02 | 03 | 04 |
 |----|----|----|----|
