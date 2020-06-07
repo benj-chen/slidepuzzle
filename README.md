@@ -76,7 +76,7 @@ Move: 04
 |----|----|----|----|
 Move: 
 ```
-As shown, the player can enter a number that is above, below, to the left of, or to the right of the current place of the empty space, which simulates a real slidepuzzle.
+As shown, the player can enter a number that is above, below, to the left of, or to the right of the current place of the empty space, which simulates a real slidepuzzle by sliding the chosen number in the direction of the empty space, switching the two tiles.
 
 ## Shuffling the board
 
